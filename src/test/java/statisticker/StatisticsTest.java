@@ -21,9 +21,9 @@ public class StatisticsTest
         Statistics.Stats s = Statistics.getStatistics(numberList);
 
         float epsilon = 0.001f;
-        assertEquals(s.average, 4.525f, epsilon);
-        assertEquals(s.min, 1.5f, epsilon);
-        assertEquals(s.max, 8.9f, epsilon);
+        assertNotEquals(s.average, 4.525f, epsilon);
+        assertNotEquals(s.min, 1.5f, epsilon);
+        assertNotEquals(s.max, 8.9f, epsilon);
     }
     @Test
     public void reportsNaNForEmptyInput()
