@@ -1,3 +1,8 @@
+package statisticker;
+
+import static org.junit.Assert.*;
+//import jdk.nashorn.internal.AssertsEnabled;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
