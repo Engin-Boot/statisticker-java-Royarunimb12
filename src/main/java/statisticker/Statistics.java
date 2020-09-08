@@ -23,7 +23,7 @@ public class Statistics
             for(Float number:numbers){
                 sum+=number;
             }
-            s.average=sum/numbers.size();
+            s.average=(Float)sum/numbers.size();
 
         }
         return s;
