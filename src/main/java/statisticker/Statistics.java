@@ -19,7 +19,7 @@ public class Statistics
         {
             s.min= Collections.min(numbers);
             s.max= Collections.max(numbers);
-            Float sum=0f;
+            Float sum=0.0f;
             for(Float number:numbers){
                 sum+=number;
             }
