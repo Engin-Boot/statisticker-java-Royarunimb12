@@ -15,7 +15,7 @@ public class Statistics
     public static Stats getStatistics(List<Float> numbers) {
         //implement the computation of statistics here
         Statistics.Stats s=new Stats();
-        while(!numbers.isEmpty())
+        if(!numbers.isEmpty())
         {
             s.min= Collections.min(numbers);
             s.max= Collections.max(numbers);
